@@ -1,7 +1,7 @@
 # SoulMeet - React Native CRM App
 
 ## Introduction
-SoulMeet is a CRM (Customer Relationship Management) mobile application developed using React Native. This project was undertaken as a freelancing assignment for the group called ZerothIndex.The app consists of 9 distinct pages, each designed to facilitate various aspects of customer relationship management.
+SoulMeet is a CRM (Customer Relationship Management) mobile application developed using React Native. This project was undertaken as a freelancing assignment for the group called ZerothIndex.The app consists of 11 distinct pages, each designed to facilitate various aspects of customer relationship management.
 
 ## Project Structure
 The project is organized with the following key components:
