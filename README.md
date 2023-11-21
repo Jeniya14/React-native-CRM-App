@@ -1,79 +1,72 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# SoulMeet - React Native CRM App
 
-# Getting Started
+## Introduction
+SoulMeet is a CRM (Customer Relationship Management) mobile application developed using React Native. This project was undertaken as a freelancing assignment for the group called ZerothIndex.The app consists of 9 distinct pages, each designed to facilitate various aspects of customer relationship management.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Project Structure
+The project is organized with the following key components:
 
-## Step 1: Start the Metro Server
+- **Name:** soulmeet
+- **Version:** 0.0.1
+- **Private:** true
+- **Scripts:**
+  - `android`: Run the app on Android.
+  - `ios`: Run the app on iOS.
+  - `lint`: Run ESLint for code linting.
+  - `start`: Start the React Native development server.
+  - `test`: Run Jest for testing.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Dependencies
+SoulMeet utilizes various libraries and dependencies to enhance its functionality. Here are the main dependencies:
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **@react-native-community/datetimepicker:** Version 7.6.0
+- **@react-navigation/bottom-tabs:** Version 6.5.11
+- **@react-navigation/native:** Version 6.1.8
+- **@react-navigation/native-stack:** Version 6.9.14
+- **core-js:** Version 3.33.1
+- **react:** Version 18.2.0
+- **react-native:** Version 0.72.5
+- **react-native-dropdown-select-list:** Version 2.0.5
+- **react-native-image-picker:** Version 7.0.0
+- **react-native-multiple-select:** Version 0.5.12
+- **react-native-safe-area-context:** Version 4.7.2
+- **react-native-screens:** Version 3.25.0
+- **react-native-sectioned-multi-select:** Version 0.10.0
+- **react-native-select-dropdown:** Version 3.4.0
+- **react-native-vector-icons:** Version 10.0.0
 
-```bash
-# using npm
-npm start
+## Node Version
+The project is configured to run on Node.js version 16 and above.
 
-# OR using Yarn
-yarn start
-```
+## Screenshots
+Include screenshots of different pages of the SoulMeet app here. You can use image hosting services or upload them directly to the repository.
 
-## Step 2: Start your Application
+### Login 
+<img src="screenshots/login.jpg" alt="Screenshot 1" width="300"/>
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### Register 
+<img src="screenshots/register.jpg" alt="Screenshot 1" width="300"/>
 
-### For Android
+### Forget Password 
+<img src="screenshots/forget.jpg" alt="Screenshot 1" width="300"/>
 
-```bash
-# using npm
-npm run android
+### User About 
+<img src="screenshots/about.jpg" alt="Screenshot 1" width="300"/>
 
-# OR using Yarn
-yarn android
-```
+### User Profile update
+<img src="screenshots/addprofile.jpg" alt="Screenshot 1" width="300"/>
 
-### For iOS
+### Home
+<img src="screenshots/home.jpg" alt="Screenshot 1" width="300"/>
 
-```bash
-# using npm
-npm run ios
+### Detailed profile
+<img src="screenshots/detail.jpg" alt="Screenshot 1" width="300"/>
 
-# OR using Yarn
-yarn ios
-```
+### User Preference
+<img src="screenshots/preference.jpg" alt="Screenshot 1" width="300"/>
+<img src="screenshots/dropdown.jpg" alt="Screenshot 1" width="300"/>
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Conclusion
+SoulMeet is a React Native CRM app that leverages various libraries to create a robust and user-friendly customer relationship management experience. For detailed information on each page's functionality and implementation, please refer to the source code and relevant documentation.
