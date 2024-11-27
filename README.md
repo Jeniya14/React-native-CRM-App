@@ -8,13 +8,11 @@ The project is organized with the following key components:
 
 - **Name:** soulmeet
 - **Version:** 0.0.1
-- **Private:** true
 - **Scripts:**
   - `android`: Run the app on Android.
   - `ios`: Run the app on iOS.
   - `lint`: Run ESLint for code linting.
   - `start`: Start the React Native development server.
-  - `test`: Run Jest for testing.
 
 ## Dependencies
 SoulMeet utilizes various libraries and dependencies to enhance its functionality. Here are the main dependencies:
